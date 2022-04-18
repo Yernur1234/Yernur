@@ -1,0 +1,102 @@
+body {
+  background-color: #68c2c3
+}
+
+.nav-link {
+  font-size: 22px;
+}
+
+h4 {
+  color: white;
+}
+
+li {
+  margin-left: 3em;
+  color: white;
+
+}
+
+i {
+  font-size: 40px;
+}
+
+#whatsapp {
+  width: 60px;
+  height: 60px;
+  animation-name: example1;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  overflow: auto;
+  position: fixed;
+  bottom: 678px;
+
+}
+
+@keyframes example1 {
+  from {
+    left: 1600px;
+  }
+
+  to {
+    left: 1450px;
+  }
+}
+
+#instagram {
+  width: 60px;
+  height: 60px;
+  animation-name: example;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  overflow: auto;
+  position: fixed;
+  bottom: 695 px;
+}
+
+@keyframes example {
+  from {
+    left: 1600px;
+  }
+
+  to {
+    left: 1400px;
+  }
+}
+
+#list-example {
+  color: white;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+#time {
+  top: 18%;
+  padding: 15px;
+  color: white;
+  background-color: #3a9092;
+  filter: opacity(80%);
+  border: 0px;
+  font-size: 22px;
+  margin-right: 70px;
+  margin-left: 70px;
+}
+
+
+.img2 {
+  float: right;
+}
+
+.clearfix {
+  overflow: auto;
+
+}
+
+p.ex2 {
+  display: inline;
+}
+
+IMG.fig {
+  float: right;
+  margin-bottom:25px;
+
+}
